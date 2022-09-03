@@ -76,15 +76,3 @@ export const getDirection = (
       return realSize;
   }
 };
-
-/* export const getStandardProps = (standard: TFormatSML, props: IProps) => {
-  if (!standard) {
-    return;
-  }
-
-  props.padding = standard;
-  props.borderRadius = standard;
-  props.gap = standard;
-
-  return props;
-}; */
