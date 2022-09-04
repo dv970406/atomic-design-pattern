@@ -1,13 +1,13 @@
 import { TFormatSML } from "../type/prop";
 
-export type TBorderRadius = TFormatSML;
+export type TBorderRadius = TFormatSML | "full";
 
 export interface IBorderRadiusPalette {
   [key: string]: string;
 }
 
 export const borderRadiusPalette: IBorderRadiusPalette = {
-  default: "4px",
+  default: "0",
   xxl: "28px",
   xl: "24px",
   lg: "20px",
@@ -15,4 +15,5 @@ export const borderRadiusPalette: IBorderRadiusPalette = {
   sm: "14px",
   xs: "10px",
   xxs: "6px",
+  full: "50%",
 };

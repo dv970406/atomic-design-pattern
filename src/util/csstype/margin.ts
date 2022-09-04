@@ -7,12 +7,13 @@ export interface IMarginPalette {
 }
 
 export const marginPalette: IMarginPalette = {
-  default: "0px",
-  xxl: "24px",
-  xl: "20px",
-  lg: "16px",
-  md: "12px",
-  sm: "8px",
-  xs: "4px",
-  xxs: "2px",
+  default: "0",
+  xxl: "78px",
+  xl: "60px",
+  lg: "48px",
+  md: "32px",
+  sm: "24px",
+  xs: "12px",
+  xxs: "8px",
+  none: "0",
 };
