@@ -1,0 +1,26 @@
+/* 
+삭제 예정
+dnd styling를 스타일링하는 파일 
+*/
+
+.app {
+  height: 100%;
+}
+
+.treeRoot {
+  padding: 40px 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.draggingSource {
+  opacity: 0.3;
+}
+
+.canDropTarget {
+  background-color: green;
+}
+
+.cantDropTarget {
+  background-color: red;
+}
