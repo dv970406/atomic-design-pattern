@@ -1,5 +1,5 @@
-import { FieldError } from 'react-hook-form';
-import BoxWithInputAndText from './custom/BoxWithInputAndText';
+import { FieldError } from "react-hook-form";
+import BoxWithInputAndText from "./custom/BoxWithInputAndText";
 
 interface ITextInput {
   text: string;
@@ -16,27 +16,27 @@ const TextInput = ({
   onChange,
   placeholder,
   error,
-  type = 'text',
+  type = "text",
   defaultValue,
 }: ITextInput) => {
   return (
     <BoxWithInputAndText
-      textProps={{ text, bold: 'lg' }}
+      textProps={{ text, bold: "lg" }}
       inputProps={{
         onChange,
-        padding: 'xs',
-        borderRadius: 'xxs',
-        size: 'xs',
+        padding: "xs",
+        borderRadius: "xxs",
+        size: "xs",
         placeholder,
         register,
-        borderColor: error ? 'red' : 'default',
+        borderColor: error ? "red" : "default",
         type,
         defaultValue,
       }}
       boxProps={{
-        flexDirection: 'column',
-        width: 'full',
-        gap: 'xxs',
+        flexDirection: "column",
+        width: "full",
+        gap: "xxs",
       }}
     />
   );

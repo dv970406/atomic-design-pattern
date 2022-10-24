@@ -11,7 +11,7 @@ const GiveAuth = () => {
       padding="md"
     >
       <BoxWithIconAndText
-        textProps={{ text: "dsacxz" }}
+        textProps={{ text: "dsas" }}
         iconProps={{ icon: "times" }}
         boxProps={{}}
       />
